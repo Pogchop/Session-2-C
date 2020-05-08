@@ -1,0 +1,28 @@
+int main ()
+{
+  char abc;
+  int xyz;
+  float length;
+  double area;
+  long liteyrs;
+  short arm;
+  printf("Insert abc: ");
+  scanf("%c",&abc);
+  printf("\nInsert xyz: ");
+  scanf("%d",&xyz);
+  printf("\nInsert length: ");
+  scanf("%f",&length);
+  printf("\nInsert area: ");
+  scanf("%lf",&area);
+  printf("\nInsert liteyrs: ");
+  scanf("%ld",&liteyrs);
+  printf("\nInsert arm: ");
+  scanf("%hd",&arm);
+  printf("\n%c",abc);
+  printf("\n%d",xyz);
+  printf("\n%f",length);
+  printf("\n%lf",area);
+  printf("\n%ld",liteyrs);
+  printf("\n%hd",arm);
+  return 0;
+}
